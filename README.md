@@ -1,3 +1,4 @@
+# Business-Survey
 # Python script to generate 40 construction company survey questions with email functionality
 
 import smtplib
@@ -103,4 +104,3 @@ if __name__ == "__main__":
     print("\nPlease enter the recipient's email to send the survey results:")
     recipient = input("Recipient Email: ")
     send_email(answers, recipient)
-
